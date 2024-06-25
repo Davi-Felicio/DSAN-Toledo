@@ -86,7 +86,8 @@ nav{
 
 .github{
     color: #ffffff; /* Azul escuro */
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 main{
@@ -526,4 +527,6 @@ section.agenda th, section.agenda td {
     padding: 10px;
     border: 1px solid #ddd;
 }
-
+p, .texto {
+    text-indent: 1cm; /* ou o valor desejado, como 1cm, 2cm, etc. */
+}
