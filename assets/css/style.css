@@ -6,17 +6,19 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 
 body{
     background: #d4e9d7; /* Verde claro */
     color: #000000; /* Preto */
+     
 }
 
 html{
     font-family: Inter, sans-serif;
     font-weight: 500;
+    
 }
 .cor{
     background-color: #28a745;
@@ -83,13 +85,17 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
-    color: #ffffff; /* Azul escuro */
+    color: #ffffff; /*.Azul escuro */
+   
+    
 }
 
 .github{
     color: #ffffff; /* Azul escuro */
     font-weight: 700;
     font-size: 20px;
+    
+
 }
 
 main{
@@ -173,6 +179,7 @@ iframe {
 
 .principal{
     background: #f0f0f0; /* Cinza claro */
+    display: flex;
 }
 
 .hero{
@@ -537,6 +544,7 @@ section.agenda table {
 section.agenda th, section.agenda td {
     padding: 10px;
     border: 1px solid #ddd;
+    
 }
 p, .texto {
     text-indent: 1cm; /* ou o valor desejado, como 1cm, 2cm, etc. */
